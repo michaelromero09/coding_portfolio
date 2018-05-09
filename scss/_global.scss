@@ -36,18 +36,18 @@ hr.star-dark:after {
 }
 
 hr.star-light {
-  border-color: $white;
+  border-color: $complimentary1;
 }
 hr.star-light:after {
-  color: $white;
+  color: $complimentary1;
   background-color: $primary;
 }
 
 hr.star-dark {
-  border-color: $secondary;
+  border-color: $complimentary1;
 }
 hr.star-dark:after {
-  color: $secondary;
+  color: $complimentary1;
   background-color: white;
 }
 

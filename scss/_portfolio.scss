@@ -6,11 +6,13 @@
     display: block;
     max-width: 25rem;
     margin-bottom: 15px;
+    width: 300px;
     .portfolio-item-caption {
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
+      width: 300px;
       background-color: fade-out($primary, .1);
       &:hover {
         opacity: 1;
@@ -60,4 +62,14 @@
       }
     }
   }
+}
+
+.portfolio-item img {
+  border: 3px solid $middle;
+  height: 300px;
+  width: 300px;
+}
+
+.modal-img {
+  border: 3px solid $secondary;
 }
